@@ -16,9 +16,8 @@ apt-get install vim git gcc g++ doxygen
 
 #applications
 apt-get install google-chrome-stable
-apt-get install snapd
-snap install hiri
+apt-get install geary
 
-apt-get autoclean
+apt autoremove
 apt-get clean
 
