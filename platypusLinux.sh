@@ -16,7 +16,13 @@ apt-get install vim git gcc g++ doxygen
 
 #applications
 apt-get install google-chrome-stable
-apt-get install geary
+apt-get install geary 
+apt-get install okular libreoffice
+apt-get gimp
+
+#utilities
+apt-get install gparted
+apt-get install cups
 
 apt autoremove
 apt-get clean
