@@ -24,7 +24,7 @@ snap install atom
 
 #applications
 apt-get install google-chrome-stable
-apt-get install geary gnome-calendar 
+apt-get install geary gnome-calendar gnome-contacts 
 apt-get install okular libreoffice
 apt-get gimp
 
