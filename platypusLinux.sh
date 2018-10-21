@@ -32,6 +32,7 @@ apt-get gimp
 apt-get install gparted
 apt-get install cups
 apt-get install gnome-online-accounts
+apt-get install gufw
 
 apt autoremove
 apt-get clean
