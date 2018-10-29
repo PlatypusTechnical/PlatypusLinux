@@ -33,6 +33,7 @@ apt-get install gparted
 apt-get install cups
 apt-get install gnome-online-accounts
 apt-get install gufw
+apt-get install xserver-xorg-input-synaptics
 
 apt autoremove
 apt-get clean
