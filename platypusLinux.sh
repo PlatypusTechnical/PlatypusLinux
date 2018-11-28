@@ -19,19 +19,21 @@ apt-get install snap
 apt-get install vim git gcc g++ doxygen
 curl https://sh.rustup.rs -sSf | sh
 snap install atom
+apt-get install python3-pip
+pip3 install mu-editor
+pip3 install uflash
 
 #libraries
 
 #applications
 apt-get install google-chrome-stable
-apt-get install geary gnome-calendar gnome-contacts 
 apt-get install okular libreoffice
-apt-get gimp
+apt-get install gimp
+apt-get install keepnote
 
 #utilities
 apt-get install gparted
 apt-get install cups
-apt-get install gnome-online-accounts
 apt-get install gufw
 apt-get install xserver-xorg-input-synaptics
 
