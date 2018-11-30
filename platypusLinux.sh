@@ -5,38 +5,37 @@ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key ad
 
 #apt repositories
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-#sudo apt-add-repository ppa:elementary-os/stable
 
-apt-get update
-apt-get upgrade
+apt update
+apt upgrade
 
 #tools
-apt-get install curl
-apt-get install software-properties-common
-apt-get install snap
+apt install curl
+apt install software-properties-common
+apt install snap
 
 #development tools
-apt-get install vim git gcc g++ doxygen
+apt install vim git gcc g++ doxygen
 curl https://sh.rustup.rs -sSf | sh
 snap install atom
-apt-get install python3-pip
+apt install python3-pip
 pip3 install mu-editor
 pip3 install uflash
 
 #libraries
 
 #applications
-apt-get install google-chrome-stable
-apt-get install okular libreoffice
-apt-get install gimp
-apt-get install keepnote
+apt install google-chrome-stable
+apt install okular libreoffice
+apt install gimp
+apt install keepnote
 
 #utilities
-apt-get install gparted
-apt-get install cups
-apt-get install gufw
-apt-get install xserver-xorg-input-synaptics
+apt install gparted
+apt install cups
+apt install gufw
+apt install xserver-xorg-input-synaptics
 
 apt autoremove
-apt-get clean
+apt clean
 
