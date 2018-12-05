@@ -29,6 +29,7 @@ apt install google-chrome-stable
 apt install okular libreoffice
 apt install gimp
 apt install keepnote
+apt install flowblade
 
 #utilities
 apt install gparted
