@@ -5,6 +5,7 @@ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key ad
 
 #apt repositories
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo add-apt-repository ppa:obsproject/obs-studio
 
 apt update
 apt upgrade
@@ -30,12 +31,14 @@ apt install okular libreoffice
 apt install gimp
 apt install keepnote
 apt install flowblade
+apt install obs-studio
 
 #utilities
 apt install gparted
 apt install cups
 apt install gufw
 apt install xserver-xorg-input-synaptics
+pip3 install grip
 
 apt autoremove
 apt clean
